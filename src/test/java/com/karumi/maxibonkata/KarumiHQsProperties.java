@@ -33,7 +33,8 @@ public class KarumiHQsProperties {
     }
 
     @Property(trials = 1000)
-    public void theNumberOfMaxibonsLeftIsBiggerThanTwoWhenGroupOfDevs(List<@From(KarumiesGenerator.class) Developer> developers) {
+    public void theNumberOfMaxibonsLeftIsBiggerThanTwoWhenGroupOfDevs(
+            List<@From(KarumiesGenerator.class) Developer> developers) {
         System.out.println("Comiendo maxibons " + developers.size() + " developers");
         karumiHQs.openFridge(developers);
         final int maxibonsLeft = karumiHQs.getMaxibonsLeft();
