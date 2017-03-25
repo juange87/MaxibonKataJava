@@ -12,7 +12,8 @@ public class DeveloperProperties {
     private static final String ANY_NAME = "Pedro";
     private static final int ANY_NUMBER = 1;
 
-    @Property public void theNumberOfMaxibonsAssignedIsPositiveOrZero(int numberOfMaxibons){
+    @Property
+    public void theNumberOfMaxibonsAssignedIsPositiveOrZero(int numberOfMaxibons) {
         System.out.println(numberOfMaxibons);
         Developer developer = new Developer(ANY_NAME, numberOfMaxibons);
         System.out.println(developer.toString());
