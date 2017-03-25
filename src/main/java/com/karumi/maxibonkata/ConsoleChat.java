@@ -21,5 +21,4 @@ public class ConsoleChat implements Chat {
   @Override public void sendMessage(String message) {
     System.out.println(message);
   }
-
 }

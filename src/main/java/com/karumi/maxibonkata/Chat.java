@@ -17,6 +17,5 @@
 package com.karumi.maxibonkata;
 
 public interface Chat {
-
   void sendMessage(String message);
 }

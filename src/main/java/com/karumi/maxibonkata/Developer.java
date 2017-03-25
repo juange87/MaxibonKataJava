@@ -17,7 +17,6 @@
 package com.karumi.maxibonkata;
 
 class Developer {
-
   private final String name;
   private final int numberOfMaxibonsToGrab;
 

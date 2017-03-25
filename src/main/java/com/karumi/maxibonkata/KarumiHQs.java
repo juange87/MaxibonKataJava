@@ -22,7 +22,6 @@ import java.util.List;
 public class KarumiHQs {
 
   private final Chat chat;
-
   private int maxibonsLeft;
 
   public KarumiHQs() {
