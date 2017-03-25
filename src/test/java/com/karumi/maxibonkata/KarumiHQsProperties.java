@@ -65,7 +65,7 @@ public class KarumiHQsProperties {
     }
 
     @Property(trials = 1000)
-    public void theNumberOfMaxibonsLeftIsBiggerThanTwoAndSendMessage_WhenNotSoHungryDevs(
+    public void theNumberOfMaxibonsLeftIsBiggerThanTwoAndSendMessageWhenNotSoHungryDevs(
             @From(NotSoHungryDevelopersGenerator.class) Developer developer) {
         System.out.println("Comiendo maxibons: " + developer.toString());
         karumiHQs.openFridge(developer);
